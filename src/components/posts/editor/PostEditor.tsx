@@ -45,7 +45,7 @@ export default function PostEditor() {
         />
       </div>
 
-      <div>
+      <div className="flex justify-end">
         <Button onClick={onSubmit} 
         disabled={!input.trim()}
         className="min-w-20"
